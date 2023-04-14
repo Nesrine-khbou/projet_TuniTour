@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="filters.css">
+    <title>Filters</title>
+</head>
+<body>
+    <header>
+        <ul id="logo"><li><a href="#">LOGO</a></li></ul>
+        <ul id="header_options">
+            <li><a href="#"> Home</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Admin Space</a></li>
+            <li><a href="#">Most recommended</a></li>
+            <li>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>                          
+                </a>
+            </li>
+            <li> <a href="#" id="signUp"> Sign up</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="main_pic">
+            <section id="search"> 
+                <input type="text">
+                <button>Search</button>
+            </section>
+        </section>
+        <section id="filters">
+            <section id="header_filters">
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </li>
+                    <li><h1>Filters</h1></li>
+                </ul>
+            </section>
+            <section class="season-act">
+                <div class="sec_header">
+                    <h1>Season</h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                  
+                <ul>
+                    <li>
+                        <input name="winter" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="winter">Winter</label>
+                    </li>
+                    <li>
+                        <input name="Summer" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Summer">Summer</label>
+                    </li>
+                    <li>
+                        <input name="Autumn" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Autumn">Autumn</label>
+                    </li>
+                    <li>
+                        <input name="Spring" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Spring">Spring</label>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="filters_categories">
+                <div class="sec_header">
+                    <h1>Categories</h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                  
+                <ul>
+                    <li>
+                        <input name="Culture" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Culture">Culture</label>
+                    </li>
+                    <li>
+                        <input name="Medical" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Medical">Medical</label>
+                    </li>
+                    <li>
+                        <input name="Adventure" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Adventure">Adventure</label>
+                    </li>
+                    <li>
+                        <input name="Rural" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Rural">Rural</label>
+                    </li>
+                    <li>
+                        <input name="Wildlife" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Wildlife">Wildlife</label>
+                    </li>
+                    <li>
+                        <input name="Beach" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Beach">Beach</label>
+                    </li>
+                    <li>
+                        <input name="Educational" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Educational">Educational</label>
+                    </li>
+                    <li>
+                        <input name="Spring" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Spring">Spiritual or religious</label>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="season-act">
+                <div class="sec_header">
+                    <h1>Activities</h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                  
+                <ul>
+                    <li>
+                        <input name="Water" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Water">Water activities</label>
+                    </li>
+                    <li>
+                        <input name="Adventure" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Adventure">Adventure</label>
+                    </li>
+                    <li>
+                        <input name="Culture" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Culture">Culture and history</label>
+                    </li>
+                    <li>
+                        <input name="Nature" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Nature">Nature</label>
+                    </li>
+                    <li>
+                        <input name="Food" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Food">Food</label>
+                    </li>
+                    <li>
+                        <input name="Sport" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Sport">Sport</label>
+                    </li>
+                    <li>
+                        <input name="Desert" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Desert">Desert</label>
+                    </li>
+                    <li>
+                        <input name="Safari" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Safari">Safari</label>
+                    </li>
+                </ul>
+            </section>
+            
+            <section id="Destination">
+                <div class="sec_header">
+                    <h1>Destination</h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                  
+                <ul>
+                    <li>
+                        <input name="Tunis" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Tunis">Tunis</label>
+                    </li>
+                    <li>
+                        <input name="Hammamet" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Hammamet">Hammamet</label>
+                    </li>
+                    <li>
+                        <input name="Sousse" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Sousse">Sousse</label>
+                    </li>
+                    <li>
+                        <input name="Djerba" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Djerba">Djerba</label>
+                    </li>
+                    <li>
+                        <input name="Tozeur" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Tozeur">Tozeur</label>
+                    </li>
+                    <li>
+                        <input name="Sfax" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Sfax">Sfax</label>
+                    </li>
+                    <li>
+                        <input name="Doga" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Doga">Doga</label>
+                    </li>
+                    <li>
+                        <input name="Bizert" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Bizert">Bizert</label>
+                    </li>
+                    <li>
+                        <input name="sidibou" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="sidibou">Sidi Bou Said</label>
+                    </li>
+                    <li>
+                        <input name="Monastir" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Monastir">Monastir</label>
+                    </li>
+                    <li>
+                        <input name="Kairaoin" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Kairaoin">Kairaoin</label>
+                    </li>
+                    <li>
+                        <input name="Klibiea" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Klibiea">Klibiea</label>
+                    </li>
+                    <li>
+                        <input name="Nabeul" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Nabeul">Nabeul</label>
+                    </li>
+                    <li>
+                        <input name="Douz" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Douz">Douz</label>
+                    </li>
+                    <li>
+                        <input name="Matmata" type="checkbox">
+                        <span class="checkmark"></span>
+                        <label for="Matmata">Matmata</label>
+                    </li>
+                </ul>
+                <a href="#">Show more destinations</a>
+                <section>
+                    <div id="button">
+                        <button id="clear">Clear all</button>
+                        <button id="submit">Apply</button>
+                    </div>
+                </section>
+            </section>
+
+
+
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li id="about_us">
+                <h3>About Us</h3>
+                <p>TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText</p>
+            </li>
+            <li id="Folllow">
+                <h3>Folllow Us On</h3>
+                <img src="/pics/insta.png" alt="">
+                <img src="/pics/insta.png" alt="">
+                <img src="/pics/insta.png" alt="">
+            </li>
+        </ul>
+        <div id="Copyright">Copyright @2023 All rights reserved</div>
+    </footer>
+    
+</body>
+</html>

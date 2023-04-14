@@ -1,0 +1,310 @@
+#Space{
+    height: 10rem;
+}
+
+#user_info{
+    background-color: whitesmoke;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    padding: 1rem 2rem 3rem 2rem;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px rgba(143, 143, 143, 0.687) ;
+
+}
+
+#log_out-settings{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+#log_out-settings a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:  rgb(9, 44, 85);
+    font-size: 2rem;
+    background-color:  rgba(77, 155, 215, 0.849);
+    width: 10rem;
+    height: 3rem;
+    padding: 0rem 2rem;
+    border-radius: 25px;
+}
+
+#log_out-settings svg{
+    height: 3.5rem;
+    width: 3.5rem;
+    color:  rgb(9, 44, 85);
+    padding-left: 1rem;
+}
+
+#log_out-settings a svg{
+    height: 2rem;
+    width: 2rem;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    padding-left: 4rem;
+}
+
+#info img{
+    height: 20rem;
+    width: 20rem;
+    margin: 0;
+    margin-right: 4rem;
+    padding: 0.5rem;
+    border-radius: 200px;
+    border: 1px solid  rgb(9, 44, 85);
+    box-shadow: 2px 4px 8px rgba(143, 143, 143, 0.687) ;
+}
+
+#info_descp{
+    width: 25rem;
+    height: 10rem;
+    padding: 1rem;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+
+#visited_list{
+    width: 90%;
+    position: relative;
+    margin: 6rem auto;
+}
+
+#visited_list_sec{
+    background-color: whitesmoke;
+    padding-bottom: 3rem;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px rgba(143, 143, 143, 0.687) ;
+}
+
+#visited_list h2{
+    color:  rgb(9, 44, 85);
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+
+#user_activities_options{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5rem 0rem;
+}
+
+.user_act{
+    height: 30rem;
+    width: 21rem;
+    border-radius: 20px;
+    box-shadow: 2px 4px 8px rgba(0, 86, 139, 0.755) ;
+    background-color: white;
+    
+}
+
+.user_act_img{
+    height: 16rem;
+    width: 21rem;
+    border-radius: 20px;
+    object-fit:cover;
+    margin: 0;
+}
+
+#more_details{
+    color:  rgb(9, 44, 85);
+    text-decoration: underline;
+    font-size: 1.6rem;
+}
+
+.user_act p{
+    margin: 0;
+    padding-top: 1rem;
+    font-size: 2rem;
+    padding-left: 1rem;
+    height: 9rem;
+}
+
+.stars{
+    padding-left: 1rem;
+}
+
+.arrow{
+    height: 5rem;
+    width: 5rem;
+    color:  rgb(9, 44, 85);
+
+}
+
+#see_more a{
+    color:  rgb(9, 44, 85);
+    text-decoration: underline;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-right: 4rem;
+}
+
+#see_more p{
+    margin: 0;
+}
+
+#see_more svg{
+    width: 3rem;
+    height: 3rem;
+    color:  rgb(9, 44, 85);
+    padding-left: 1rem;
+}
+
+#bucket_list{
+    width: 90%;
+    position: relative;
+    margin: 6rem auto;
+}
+
+#bucket_list h2{
+    color:  rgb(9, 44, 85);
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+#bucket_list_sec{
+    background-color: whitesmoke;
+    padding-bottom: 3rem;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px rgba(143, 143, 143, 0.687) ;
+    height: 50rem;
+}
+
+#search{
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    height: 5rem;
+    top: 4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#search svg{
+    width: 3rem;
+    height: 3rem;
+    color:  rgb(24, 84, 152);
+    z-index: 10;
+    margin-right: -4rem;
+}
+
+#search input{
+    height: 4.5rem;
+    width:95%;
+    border-color: transparent;
+    border-radius: 26px;
+    border: 1px solid rgb(24, 84, 152);
+    padding-left: 6rem;
+}
+
+#search button{
+    background-color: rgb(24, 84, 152);
+    padding: 0.6rem 2.8rem;
+    font-size: 1.5rem;
+    color: aliceblue;
+    border-radius: 24px;
+    border-color: transparent;
+    margin-left: -12rem;
+}
+
+
+#bucket_list_items {
+    margin: 0 auto;
+    margin-top: 10rem;
+    width: 80%;
+    font-size: 2rem;
+}
+
+.bucket_list_item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px rgba(143, 143, 143, 0.803) ;
+    margin-bottom: 1rem;
+    padding: 0.5rem 2.5rem;
+}
+
+.bucket_list_item div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.bucket_list_item img{
+    height: 4rem;
+    width: 4rem;
+}
+
+
+.bucket_list_item p{
+    padding: 0 5rem;
+}
+
+.bucket_list_item svg{
+    height: 4rem;
+    width: 4rem;
+    color:  rgb(24, 84, 152);
+}
+
+#button{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: 3rem;
+    padding: 3rem;
+}
+
+#clear{
+    color:  rgb(9, 44, 85);
+    font-size: 2rem;
+    padding: 0.5rem 4rem;
+    border-radius: 35px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 4px 8px rgba(143, 143, 143, 0.687) ;
+}
+
+#clear p{
+    margin: 0;
+}
+
+#clear svg{
+    color:  rgb(9, 44, 85);
+    height: 2rem;
+    width: 2rem;
+}
+
+#submit{
+    color:  rgb(9, 44, 85);
+    font-size: 2rem;
+    padding: 0.5rem 7rem;
+    border-radius: 35px;
+    background-color:  rgba(77, 155, 215, 0.849);
+    margin-right: 2rem;
+    box-shadow: 2px 4px 8px rgba(143, 143, 143, 0.687) ;
+}

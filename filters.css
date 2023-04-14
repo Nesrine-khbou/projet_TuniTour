@@ -1,0 +1,136 @@
+#filters{
+    width: 70%;
+    background-color: whitesmoke;
+    margin: 4rem auto;
+    padding: 3rem 4rem;
+    border-radius: 25px;
+    padding-bottom: 10rem;
+}
+
+#header_filters {
+    border-bottom: 1px solid rgb(25, 137, 207);
+    margin: 0;
+}
+
+#header_filters ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+#header_filters svg{
+    color: rgb(9, 44, 85);
+    width: 6rem;
+    height: 6rem;
+    margin: 0;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(9, 44, 85);
+}
+
+#header_filters h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(9, 44, 85);
+    padding-left: 25rem;
+}
+
+.sec_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec_header svg{
+    color: rgb(9, 44, 85);
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+
+
+input{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 6px;
+    border:1px solid rgb(0, 113, 183);
+}
+
+label{
+    font-size: 2.2rem;
+    padding-left: 1rem;
+}
+
+ul{
+    padding: 0;
+}
+
+.season-act{
+    border-bottom: 1px solid rgb(25, 137, 207);
+    padding-bottom: 1rem;
+}
+
+.season-act ul{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 2rem;
+
+}
+
+#filters_categories{
+    border-bottom: 1px solid rgb(25, 137, 207);
+    padding-bottom: 1rem;
+}
+
+#filters_categories ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 1.5rem 0;
+    width:90%;
+}
+
+#Destination ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1.5rem 0;
+}
+
+#Destination a {
+    color:  rgb(9, 44, 85);
+    text-decoration: underline;
+    font-size: 2rem;
+    padding-top: 4rem;
+    padding-left: 1rem;
+}
+
+#button{
+    float: right;
+    padding: 3rem;
+}
+
+#button button{
+    width: 12rem;
+    height: 3.5rem;
+    font-size: 2rem;
+    border-color: transparent;
+    border-radius: 28px;
+    color: rgb(9, 44, 85) ;
+    box-shadow: 2px 4px 8px rgba(143, 143, 143, 0.687) ;
+
+}
+
+#clear{
+    background-color: aliceblue;
+    margin-right: 2rem;
+
+}
+
+#submit{
+    background-color:  rgba(77, 155, 215, 0.849);
+}

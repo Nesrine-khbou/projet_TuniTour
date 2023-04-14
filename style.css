@@ -1,0 +1,335 @@
+#main_pic{
+    background-image: url(/pics/main2.jpg);
+    background-position: center;
+    background-size:cover ;
+    height: 50rem;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+#search{
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    height: 20rem;
+    top:12.5rem;   
+    text-align: center;
+    align-items: baseline;
+}
+
+#search input{
+    height: 4.5rem;
+    width:100%;
+    border-color: transparent;
+    border-radius: 26px;
+}
+
+#search button{
+    background-color: rgb(24, 84, 152);
+    padding: 0.6rem 2.8rem;
+    font-size: 1.5rem;
+    color: aliceblue;
+    border-radius: 24px;
+    border-color: transparent;
+    margin-left: -12rem;
+}
+
+#activities_button{
+    background-color: rgb(24, 84, 152);
+    padding: 1rem 5rem;
+    font-size: 1.7rem;
+    color: aliceblue;
+    border-radius: 34px;
+    border-color: transparent;
+    position:relative;
+    float: right;
+    margin-right: 4rem;
+    display: block;
+}
+
+#activities{
+    margin-top: 2rem;
+    width: 90%;
+    margin-top: 11rem;
+    margin-left: 6rem;
+}
+
+#activities h1{
+    color:  rgb(9, 44, 85);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+#activities_options{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5rem 2rem;
+}
+
+.act_op{
+    height: 22rem;
+    width: 18rem;
+    text-align: center;
+}
+
+.act_op img{
+    object-fit: cover;
+    height: 22rem;
+    width: 18rem;
+    border-radius: 30px;
+    box-shadow: 2px 4px 8px rgba(68, 67, 67, 0.687) ;
+
+}
+
+.act_descpription{
+    margin-top: -8rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#cities{
+    margin-top: 2rem;
+    width: 90%;
+    margin-top: 11rem;
+    margin-left: 6rem;
+}
+
+#cities h1{
+    color:  rgb(9, 44, 85);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+#cities_options{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 1rem 2rem;
+    padding: 5rem 2rem;
+
+}
+
+.city_op{
+
+    height: 18rem;
+    width: 24rem;
+    text-align: center;
+}
+
+.city_op img{
+    object-fit: cover;
+    height: 18rem;
+    width: 24rem;
+    border-radius: 30px;
+    box-shadow: 2px 4px 8px rgba(68, 67, 67, 0.687) ;
+    border: solid 2px rgb(0, 113, 183);
+}
+
+#recommendations{
+    width: 90%;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+
+#recommendations h1{
+    color:  rgb(9, 44, 85);
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#recommended_options{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 2rem 0rem;
+    padding: 3rem 2rem;
+}
+
+.rec_op{
+    display: flex;
+    flex-direction: row;
+    height: 22rem;
+    width: 40rem;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    border: solid 2px rgb(0, 113, 183);
+    box-shadow: 2px 4px 8px rgba(143, 143, 143, 0.687) ;
+
+}
+
+.rec_op img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.rec_op_descp{
+    padding-left: 1rem;
+    height: 20rem;
+    width: 20rem;
+}
+
+.rec_op_descp h2{
+    margin: 0;
+    font-size: 2rem;
+}
+
+.rec_op_descp p{
+    margin: 0;
+    font-size: 1.8rem;
+    padding-bottom: 1.5rem;
+
+}
+
+.see_more a{
+    font-size: 2rem;
+    text-decoration: underline;
+    color: rgb(0, 113, 183);
+    position: relative;
+    left: 10rem;
+}
+
+#numbers{
+    width: 90%;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+
+#numbers h1{
+    color:  rgb(9, 44, 85);
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#tunitour {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:5rem 1rem ;
+    text-align: center;
+}
+
+#tunitour p {
+    color: rgb(9, 44, 85);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+#rec_travel_agencies{
+    width: 90%;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+
+#rec_travel_agencies h1{
+    color:  rgb(9, 44, 85);
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#travel_agencies_options{
+    margin-top: 6rem;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 5rem 1rem;
+
+}
+
+
+.travel_agencies_op {
+    height: 20rem;
+    width: 18rem;
+    border-radius: 20px;
+    text-align: center;
+    border: solid 2px rgb(0, 113, 183);
+    box-shadow: 2px 4px 8px rgba(143, 143, 143, 0.687) ;
+    
+
+}
+
+.travel_agencies_op img{
+    height: 16rem;
+    width: 18rem;
+    border-radius: 20px;
+    object-fit:cover;
+    margin: 0;
+}
+
+.travel_agencies_op p{
+    margin: 0;
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#review{
+    width: 90%;
+    margin-left: 6rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+#review h1{
+    color:  rgb(9, 44, 85);
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+#review_comments{
+    background-color: whitesmoke;
+    padding: 5rem 1rem;
+
+}
+
+.review_comment{
+    background-color: white;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 20rem;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px rgba(119, 119, 119, 0.687) ;
+
+}
+
+.user_inf{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.user_inf svg{
+    height: 5rem;
+    width: 5rem;
+    color: black;
+    padding-right: 2rem;
+}
+
+.user_inf p{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-right: 2rem;
+}
+
+.rev_desc p{
+    margin: 0;
+    font-size: 2rem;
+    padding-left: 7rem;
+}
