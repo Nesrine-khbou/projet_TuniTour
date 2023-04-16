@@ -1,0 +1,303 @@
+#Space{
+    height: 8rem;
+}
+
+#edit_profile{
+    margin:4rem auto 6rem auto ;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#settings{
+    width: 25%;
+    background-color: whitesmoke;
+    margin-right: 2rem;
+    border: 1px solid rgb(77, 155, 215);
+    border-radius: 30px;
+    padding: 3rem 2rem;
+}
+
+#a_settings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+#a_settings svg{
+    height: 3.5rem;
+    width: 3.5rem;
+    color:  rgb(9, 44, 85);
+    padding-left: 1rem;
+}
+
+#a_settings p{
+    margin: 0;
+    color:  rgb(9, 44, 85);
+    font-size: 2.5rem;
+}
+
+.settings_op{
+    font-size: 2.3rem;
+    padding-bottom: 1.5rem;
+}
+
+.settings_op a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.settings_op svg{
+    height: 2rem;
+    width: 2rem;
+    color:  rgb(9, 44, 85);
+    padding-right: 0.5rem;
+}
+
+
+.settings_op p{
+    margin: 0;
+}
+
+#profile_op_MyP a{
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+#profile_op_MyP img {
+    height: 1.5rem;
+    width: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+#profile_op_sec{
+    font-size: 1.5rem;
+    padding-top: 0.75rem;
+    padding-left: 2rem;
+}
+
+#profile{
+    width: 75%;
+    background-color: whitesmoke;
+    border: 1px solid rgb(77, 155, 215);
+    border-radius: 30px;
+    padding: 3rem 2rem;
+}
+
+#prof_header_sec{
+    margin-bottom: 4rem;
+}
+
+#prof_header_sec p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: gray;
+    margin-left: 2.5rem;
+}
+
+#prof_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#prof_header h1{
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color:  rgb(9, 44, 85);
+}
+
+#prof_header a{
+    background-color: white;
+    padding: 0.5rem 2rem;
+    margin-right: 2rem;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px rgba(143, 143, 143, 0.687) ;
+}
+
+#prof_header p{
+    margin: 0;
+    font-size: 1.5rem;
+    color:  rgb(9, 44, 85);
+}
+
+#delete_prof{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#delete_prof svg{
+    height: 1.5rem;
+    width: 1.5rem;
+    color:  rgb(9, 44, 85);
+    padding-right: 0.5rem;
+}
+
+#profile_pic{
+    margin-left: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+#profile_pic p{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color:  rgb(9, 44, 85);
+    margin-bottom: 2rem;
+}
+
+#edit_pic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#edit_pic a{
+    margin-right: 2rem;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px rgba(143, 143, 143, 0.687) ;
+}
+
+#delete_pic_a{
+    padding: 0.7rem 2rem;
+    background-color: white;
+    margin-top: 2rem;
+}
+
+#delete_pic_a p{
+    margin: 0;
+    font-size: 1.5rem;
+    color:  rgb(9, 44, 85);
+}
+
+#delete_pic_a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#delete_pic_a svg{
+    height: 1.5rem;
+    width: 1.5rem;
+    color:  rgb(9, 44, 85);
+    padding-right: 0.5rem;
+}
+
+#edit_pic_a{
+    background-color:  rgba(77, 155, 215, 0.849);
+    margin: 0;
+    padding: 0.7rem 4rem;
+    font-size: 1.5rem;
+    color:  rgb(9, 44, 85);
+}
+
+#edit_pic img {
+    height: 13rem;
+    width: 13rem;
+    margin: 0;
+    margin-right: 4rem;
+    padding: 0.05rem;
+    border-radius: 200px;
+    border: 2px solid  rgb(9, 44, 85);
+    box-shadow: 2px 4px 8px rgba(143, 143, 143, 0.687) ;
+}
+
+form{
+    position: relative;
+    margin: 0.5rem auto;
+    margin-left: 3rem;
+}
+
+label {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+input {
+    background-color: white;
+    box-shadow: 2px 4px 8px rgba(143, 143, 143, 0.744) ;
+    border-radius: 25px;
+    border-color: transparent;
+    height: 3rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.inline_2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.inline_2 li {
+    margin-left: 4rem;
+}
+
+.inline_2 input{
+    width: 25rem;
+}
+
+.inline_1{
+    margin-bottom: 1rem;
+}
+
+.inline_1 li {
+    margin-left: 4rem;
+}
+
+.inline_1 input{
+    width: 56rem;
+}
+
+#telephone_input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#preTel{
+    width: 5rem;
+    margin-right: 1rem;
+}
+
+#tel{
+    width: 18rem;
+}
+
+#edit_save{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+#edit{
+    background-color: rgba(77, 155, 215, 0.849) ;
+    padding: 0.7rem 6rem;
+    font-size: 1.6rem;
+    color:  rgb(9, 44, 85);
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px rgba(143, 143, 143, 0.687) ;
+    margin-right: 2rem;
+}
+
+#save{
+    background-color: white;
+    padding: 0.7rem 6rem;
+    font-size: 1.6rem;
+    color:  rgb(9, 44, 85);
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px rgba(143, 143, 143, 0.687) ;
+}
